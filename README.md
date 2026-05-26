@@ -6,6 +6,8 @@ for easier use in external projects (e.g. C++).
 ## Assets Structure
 
 Place the following game files in `/assets` before running:
+
+```phyton
 assets/
 ├── countries/
 │   └── (country files from game)
@@ -13,9 +15,11 @@ assets/
 │   └── (province files from game)
 ├── 00_countries.txt
 └── definition.csv
+```
 
 ## Output Format
 
+```phyton
 **countries.txt**
 tag;name;r;g;b;money
 SWE;Sweden;8;82;165;100
@@ -23,6 +27,7 @@ SWE;Sweden;8;82;165;100
 **provinces.txt**
 id;r;g;b;name;owner
 1;128;34;64;Stockholm;SWE
+```
 
 ## What it does
 
